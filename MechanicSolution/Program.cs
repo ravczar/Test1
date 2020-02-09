@@ -22,10 +22,6 @@ namespace MechanicSolution
                 Console.WriteLine(item);
             }
 
-            
-
-            
-
         }
     }
 }
