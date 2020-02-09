@@ -22,6 +22,8 @@ namespace MechanicSolution
                 Console.WriteLine(item);
             }
 
+            Console.ReadKey();
+
         }
     }
 }
