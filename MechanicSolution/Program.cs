@@ -17,9 +17,23 @@ namespace MechanicSolution
             ItemArray.Add(car);
             ItemArray.Add(bike);
 
+            // Wyświetl za pomocą metody ToString()
             foreach(IItem item in ItemArray)
             {
                 Console.WriteLine(item);
+            }
+
+            // Wyświetl za pomocą metody ExpressYourself()
+            foreach (IItem item in ItemArray)
+            {
+                try
+                {
+                    item.ExpressYourself();
+                }
+                catch(NotImplementedException e)
+                {
+                    Console.WriteLine(e.Message);
+                } 
             }
 
             Console.ReadKey();

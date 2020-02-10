@@ -17,7 +17,7 @@ namespace MechanicSolution.Models
 
         public override void ExpressYourself()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("Not implemented method!");
         }
 
         public override string Sound() => "Car sound";
